@@ -1,0 +1,19 @@
+#wgl-cursor {
+  z-index: 1000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: .05s;
+  pointer-events: none;
+}
+.wgl-canvas-outer {
+  opacity: 0.49;
+}
+.wgl-canvas-outer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}

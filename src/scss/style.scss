@@ -1,0 +1,24 @@
+@import 'base/*.scss';
+@import 'global/*.scss';
+@import '**/_*.scss';
+@import '../components/**/*.scss';
+
+body {
+  background: $background-color-primary;
+  font-family: "Space Grotesk";
+  color: white;
+}
+a,
+:visited{
+  color: white;
+  text-decoration: none;
+}
+section {
+  padding: 0 50px;
+}
+.main {
+  background-image: url(../img/home-bg.webp);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
