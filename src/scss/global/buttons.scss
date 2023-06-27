@@ -1,0 +1,48 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 5px 5px 5px 5px;
+  border-color: $primary-color;
+  background-color: $primary-color;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 40px;
+  @include transit;
+
+  &:hover {
+    color: #31274B;
+    background-color: white;
+  }
+
+  &.m-transparent {
+    background-color: #FFFFFF33;
+    border-color: #FFFFFF00;
+    &:hover {
+      color: #31274B;
+      background-color: white;
+    }
+  }
+
+  &.m-no-background {
+    background-color: transparent;
+    border-color: transparent;
+    &:hover {
+      color: white;
+      background-color: transparent;
+    }
+  }
+
+  &.m-icon {
+    padding: 0;
+    .icon {
+      width: 60px;
+      height: 60px;
+      margin-right: 12px;
+    }
+  }
+}
