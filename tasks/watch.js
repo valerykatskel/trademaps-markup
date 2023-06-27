@@ -6,7 +6,6 @@ const {
 
 module.exports = function watching() {
   watch('src/**/*.html', parallel('html'));
-  watch('src/**/*.php', parallel('php'));
   watch('src/**/*.scss', parallel('style'));
   watch('src/**/*.js', parallel('dev_js'));
   watch('src/**/*.json', parallel('html'));
