@@ -4,7 +4,7 @@
 @import '../components/**/*.scss';
 
 body {
-  background: $background-color-primary;
+  background: $page-background-color;
   font-family: "Space Grotesk";
   color: white;
 }
@@ -13,12 +13,10 @@ a,
   color: white;
   text-decoration: none;
 }
-section {
-  padding: 0 50px;
-}
+
 .main {
   background-image: url(../img/home-bg.webp);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  background-size: 1860px;
 }

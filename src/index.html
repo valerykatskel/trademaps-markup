@@ -8,57 +8,18 @@
 })
 
 <body>
-	@@include('components/page-blocks/_header.html')
+	@@include('components/widgets/header/index.html')
+
 	<main class="main">
-		<section class="header-block">
-			<div class="action-area">
-				<div class="text-block">
-					<h1>Enhance Your Performance with AI-Driven Trading Tools</h1>
-					<p>Whether you’re a seasoned trader or just starting out, our AI-driven indicators will give you the competitive edge you need to make informed decisions and stay ahead of the market trends. </p>
-				</div>
-				<div class="buttons-block">
-					<a href="#" class="btn btn-primary">
-						<span class="btn-text">Start AI Trading</span>
-					</a>
-					<a href="#" class="btn bnt-transparent">
-						<span class="icon"></span>
-						<span class="btn-text">View Presentation</span>
-					</a>
-				</div>
-			</div>
-			<div class="statistic-area">
-				<div class="statistic-item">
-					<span class="number">50+</span>
-					<span class="description">Instruments Tested</span>
-				</div>
-				<div class="statistic-item">
-					<span class="number">12.000+</span>
-					<span class="description">Hours of Testing and Optimization</span>
-				</div>
-				<div class="statistic-item">
-					<span class="number">50+</span>
-					<span class="description">Live Performance Monitoring</span>
-				</div>
-			</div>
-		</section>
-		<section class="step-by-step">
-			<div class="step">
-				<h3>Select the Solution</h3>
-				<p>Choose the AI-powered trading indicator that suits your strategy and goals.</p>
-				<div class="step-number">01</div>
-			</div>
-			<div class="step">
-				<h3>Select the Solution</h3>
-				<p>Choose the AI-powered trading indicator that suits your strategy and goals.</p>
-				<div class="step-number">02</div>
-			</div>
-			<div class="step">
-				<h3>Select the Solution</h3>
-				<p>Choose the AI-powered trading indicator that suits your strategy and goals.</p>
-				<div class="step-number">03</div>
-			</div>
-		</section>
+
+		@@include('components/widgets/header-block/index.html')
+		@@include('components/widgets/steps/index.html')
+		@@include('components/widgets/about-us/index.html')
+		@@include('components/widgets/solutions/index.html')
+		@@include('components/widgets/features/index.html')
+
 	</main>
+
 	@@include('components/page-blocks/_footer.html')
 	@@include('components/widgets/wgl/index.html')
 	@@include('components/page-blocks/_scripts.html')
