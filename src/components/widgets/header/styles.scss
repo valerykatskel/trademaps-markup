@@ -81,11 +81,12 @@ section.header {
     left: 0;
     right: 0;
     top: -300px;
-    padding: 10px 15px;
+    padding: 10px 50px;
     background: #120D24;
     transition: top 400ms;
     margin: 0 auto;
-    max-width: $container-width;
+    max-width: 100%;
+    width: 100%;
     z-index:1;
   }
 }
