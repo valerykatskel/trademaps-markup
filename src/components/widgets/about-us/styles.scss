@@ -1,0 +1,32 @@
+.about-us {
+  display: flex;
+  flex-direction: row;
+
+  .section-content {
+    padding-top: 56px;
+    margin-bottom: 20px;
+
+    p {
+      color: #BDBAD7;
+      font-size: 18px;
+      line-height: 1.777em;
+      margin-bottom: 20px;
+    }
+  }
+
+  .section-img {
+    flex: 1;
+
+    .img-container {
+      position: relative;
+      width: 400px;
+
+      .img-item {
+        position: absolute;
+        img {
+          width: 500px;
+        }
+      }
+    }
+  }
+}

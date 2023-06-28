@@ -1,7 +1,7 @@
 @import "variables";
 @import "../base/mixins";
 .btn {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -19,6 +19,10 @@
   &:hover {
     color: #31274B;
     background-color: white;
+  }
+
+  &.m-full-width {
+    display: flex;
   }
 
   &.m-transparent {

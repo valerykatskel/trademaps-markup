@@ -1,0 +1,38 @@
+.steps {
+  flex-direction: row;
+  padding: 0;
+  margin-top: 90px;
+  margin-bottom: 143px;
+
+  .step {
+    padding: 0 15px;
+    position: relative;
+
+    h5{
+      margin-bottom: 16px;
+      z-index: 2;
+      word-break: break-word;
+      position: relative;
+    }
+    p {
+      color: #BDBAD7;
+    }
+    .step-number {
+      z-index: 1;
+      position: absolute;
+      top: -47px;
+      right: 80px;
+      bottom: 0;
+      color: #7040F200;
+      -webkit-text-stroke-color: #7040F2;
+      -webkit-text-stroke-width: 1px;
+      font-size: 120px;
+      margin: -15px 0 0;
+      padding: 0 0 0 63%;
+      font-family: $header-font-family;
+      font-weight: $header-font-weight;
+      line-height: .8;
+      transition: .4s;
+    }
+  }
+}
